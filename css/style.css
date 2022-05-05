@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header h1{
+    color: #e53170;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: #17ccf2;
+}
+header,main{
+   margin: auto;
+   max-width: 80%;
+}
+
+
+header{
+    text-align: center;
+    padding: 40px;
+}
+
+.contenitore {
+
+}
+
+.carta{
+    background-color: #0f0e17;
+    width: 33%;
+    float:left;
+    margin: 20px;
+}
+
+
+
+.foto-carta{
+    background-image:url("../img/male1.png");
+    background-size: contain;
+    float: left;
+}
+
+.info-carta{
+    padding: 10px;
+    color: whitesmoke;
+    float: left;
+    line-height:2rem;
+    overflow: hidden;
+}
+
+.info-carta>p {
+    padding:5%;
+}
+
+.nome{
+    font-size: 20px;
+    font-weight: bolder;
+}
