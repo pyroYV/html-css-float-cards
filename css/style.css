@@ -32,12 +32,13 @@ header{
 }
 
 .contenitore {
-    margin-left: 11%;
+    margin-left: 5%;
 }
 
 .carta{
     background-color: #0f0e17;
-    width: calc (100% / 3 - 40px);
+    /* width: calc (100% / 3+870px); */
+    width: 30%;
     float:left;
     margin: 20px;
 }
@@ -45,6 +46,7 @@ header{
 
 .carta img{
     width: 100px;
+    /* width: 30%; */
     float: left;
 }
 
@@ -53,7 +55,7 @@ header{
     color: whitesmoke;
     float: left;
     /* line-height:2rem; */
-    width: 100%-10%px;
+    width: calc ( 100% - 100px) ;
 }
 
 .info-carta>p {
