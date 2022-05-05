@@ -37,7 +37,7 @@ header{
 
 .carta{
     background-color: #0f0e17;
-    width: 33%;
+    width: calc(100%/3+20px);
     float:left;
     margin: 20px;
 }
@@ -45,21 +45,28 @@ header{
 
 
 .foto-carta{
-    background-image:url("../img/male1.png");
-    background-size: contain;
+   /*  background-image:url("../img/male1.png"); */
+    /* background-size: contain; */
+    float: left;
+    width: 40%;
+}
+
+.carta img{
+    width: 30%;
     float: left;
 }
 
 .info-carta{
-    padding: 10px;
+    padding: 2px;
     color: whitesmoke;
     float: left;
     line-height:2rem;
     overflow: hidden;
+    width: 60%;
 }
 
 .info-carta>p {
-    padding:5%;
+    padding:5px;
 }
 
 .nome{
